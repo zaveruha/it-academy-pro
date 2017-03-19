@@ -44,7 +44,7 @@
     height: 51px;
     box-sizing: border-box;
     padding-left:12px;
-    margin-right:10px;
+    margin-right:13px;
     align-self: center;
 }
 .newsletter-form button{
@@ -58,4 +58,6 @@
     border-bottom-width: 1px;
     align-self: center;
     text-transform:uppercase;
+    padding-left: 45px;
+    letter-spacing: 1px;
 }
