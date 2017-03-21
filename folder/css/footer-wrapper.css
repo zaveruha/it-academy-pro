@@ -1,0 +1,30 @@
+.footer-wrapper{
+    display: flex;
+    text-transform: capitalize;
+}
+
+.footer-column1, .footer-column2,
+.footer-column3 {
+    width: 390px;
+    height: 245px;
+    background-repeat: no-repeat;
+}
+
+
+.footer-column1{
+    background-image: url(../images/icon-call-us.png);
+    background-position: center 0;
+    /*padding-left:77px;*/
+}
+
+.footer-column2{
+    background-image: url(../images/icon-location.png);
+    background-position: center 0;
+    /*padding-left:77px;*/
+}
+
+.footer-column3{
+    background-image: url(../images/icon-mail.png);
+    background-position: center 0;
+    /*padding-left:77px;*/
+}

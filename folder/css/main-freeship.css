@@ -1,0 +1,51 @@
+.main-freeshipping{
+    background-color: #f8f8f8;
+}
+
+.main-freeshipping-wrapper{
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.main-freeshipping-wrapper a{
+    text-decoration: none;
+    color:#333333;
+}
+
+.main-freeshipping-column1, .main-freeshipping-column2,
+.main-freeshipping-column3, .main-freeshipping-column4{
+    width: 293px;
+    background-repeat: no-repeat;
+
+    height: 108px;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main-freeshipping-column1{
+    background-image: url(../images/icon-freeshipping2.png);
+    background-position: 26px 33px;
+    padding-left:77px;
+}
+
+.main-freeshipping-column2{
+    background-image: url(../images/icon-customerSupport2.png);
+    background-position: 21px 32px;
+    padding-left:69px;
+}
+
+.main-freeshipping-column3{
+    background-image: url(../images/icon-back2.png);
+    background-position: 24px 35px;
+    padding-left:77px;
+}
+
+.main-freeshipping-column4{
+    background-image: url(../images/icon2472.png);
+    background-position: 46px 33px;
+    padding-left:77px;
+}

@@ -4,7 +4,6 @@ header{
 
 .top-background {
     background-color: #232323;
-
 }
 
 .page-header {
@@ -15,6 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+    /*line-height: 1.71;*/
     margin-bottom: 29px;
 }
 
@@ -24,23 +24,23 @@ header{
 }
 
 .header-phone, .header-user{
-    padding-left: 14px;
-    padding-top:7px;
-    padding-right:17px;
-    padding-bottom: 12px;
+    /*padding-left: 14px;*/
+    padding-top:4px;
+    /*padding-right:17px;*/
+    padding-bottom: 8px;
+    line-height: 1.71;
 }
 
-
 .register{
-    padding-right: 7px;
+    padding-right: 12px;
     padding-left: 7px;
 }
 
 .logo-container{
     display: flex;
     justify-content: space-between;
-    padding-right: 14px;
-    padding-left: 14px;
+    /*padding-right: 14px;*/
+    /*padding-left: 14px;*/
 }
 
 .header-logo {
@@ -90,7 +90,6 @@ header{
     float: right;
     padding-left: 25px;
 }
-
 
 .nav-container{
     display: flex;
