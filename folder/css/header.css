@@ -95,8 +95,8 @@ header{
     display: flex;
     justify-content:space-between;
     position: relative;
-    padding-right: 14px;
-    padding-left: 14px;
+    /*padding-right: 14px;*/
+    /*padding-left: 14px;*/
     padding-bottom: 15px;
 
 }
@@ -118,6 +118,9 @@ header{
     margin-left: 24px;
 }
 
+.header-nav ul li a:first-child{
+
+}
 
 .header-nav ul li a{
     text-decoration: none;
